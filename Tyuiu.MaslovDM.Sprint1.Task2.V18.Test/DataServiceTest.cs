@@ -13,7 +13,7 @@ namespace Tyuiu.MaslovDM.Sprint1.Task2.V18.Test
             int a = 5;
             int b = 3;
             int c = 4;
-            int res = ds.Calculate(a, b, c);
+            int res = ds.CalculateSideSquareParallelepiped(a, b, c);
             Assert.AreEqual(64, res);
         }
     }

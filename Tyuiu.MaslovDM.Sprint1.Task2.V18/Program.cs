@@ -28,7 +28,7 @@ namespace Tyuiu.MaslovDM.Sprint1.Task2.V18
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Площадь боковой поверхности = " + ds.Calculate(a, b, c));
+            Console.WriteLine("Площадь боковой поверхности = " + ds.CalculateSideSquareParallelepiped(a, b, c));
 
             Console.ReadLine();
         }
